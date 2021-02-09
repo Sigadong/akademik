@@ -1,0 +1,111 @@
+
+
+/*Header*/
+td .badge {
+	margin-left: 5px;
+}
+
+.carousel-item .slide {
+	width: auto;
+	height: 500px;
+	object-fit: cover;
+	object-position: center;
+}
+
+/* Main */
+main {
+	min-height: 780px;
+}
+
+.skill {
+	/*background-color: #f6f6f6!important;*/
+	background-color: rgba(240, 240, 240, 0.336);
+	box-shadow: 0px 1px 15px 30px rgba(240, 240, 240, 0.4);
+}
+
+.skill .column {
+	color: #6b0eac;
+	font-weight: 500;
+	background-color: #f6f6f6!important;
+    transition: 0.3s ease;
+}
+
+#skill .column:hover {
+	cursor: pointer;
+	transform: scale(1.02);
+}
+
+.column .fas {
+	color: #8b1bb4!important;
+}
+
+.judul {
+	color: #837091;
+	background-color: #f3f3f3;
+}
+
+.card-body .card-title {
+	color: #655e5e;
+}
+
+.no-gutters img {
+	border-radius: 130px 3px;
+}
+
+.no-gutters .card-text {
+	text-indent: 18px;
+	text-align: justify;
+}
+
+.form, .datas {
+	margin-top: 70px;
+}
+
+.form .card-header {
+	background-color: #6b0eac;
+	font-weight: 500;
+}
+
+
+/*Footer*/
+footer .row p, a {
+  color: #c9c9c9;
+  text-decoration: none;
+}
+
+footer .row a:hover {
+  color: #e3e945;
+  text-decoration: none;
+}
+
+.icons .icon-medsos {
+  width: 30px;
+  transition: 0.3s ease;
+}
+
+.icons a:hover .icon-medsos {
+  transform: scale(1.08);
+}
+
+
+/*Responsive Mobile*/
+@media (max-width: 576px) {
+	.carousel {
+		display: none!important;
+	}
+
+	#skill {
+		padding: 0 60px!important;
+		background-color: #ffffff;
+	}
+
+	.container .row {
+		padding: 0 10px!important;		
+	}
+
+
+	footer .row p, a {
+		font-size: 12px!important;
+	}
+
+}
